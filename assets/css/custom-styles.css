@@ -118,3 +118,13 @@ h6,
 	margin: 0;
 	padding: 20px 0px;
 }
+.TAM-logo {
+	float:right;
+}
+
+/* RESPONSIVE */
+@media (max-width: 767px){
+	.TAM-logo {
+		float:none;
+	}
+}
