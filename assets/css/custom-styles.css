@@ -4,6 +4,7 @@
  * Custom Styles
  *
  */
+ 
 html, body {
   margin: 0;
   width: 100%;
@@ -15,6 +16,8 @@ body {
 	background-image: url(../img/body_index_bg.png);
 	background-repeat: repeat;
 }
+
+/* HEADER */
 .header {
   background-color: #500000;
   color: #FFF;
@@ -29,6 +32,8 @@ body {
   text-decoration:none;
   display:inline-block;
 }
+
+/* NAVIGATION */
 .navbar {
   margin-bottom: 0;
   border-top-color: #333333;
@@ -51,6 +56,8 @@ body {
 .navbar-default .navbar-nav > li > a {
   color: #FFF;
 }
+
+/* MAIN CONTENT */
 .container-main {
   background-color: #FFF;
   padding-top: 19px;
@@ -80,6 +87,8 @@ h6,
   font-weight: bold;
   color: #500000;
 }
+
+/* CONENT FOOTER */
 .content-footer {
 	min-height: 90px;
 	margin: 15px -15px 0 -15px;
@@ -94,6 +103,8 @@ h6,
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
 }
+
+/* PAGE FOOTER */
 .footer {
   color: #500000;
   min-height: 200px;
