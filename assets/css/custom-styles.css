@@ -88,7 +88,7 @@ h6,
   color: #500000;
 }
 
-/* CONENT FOOTER */
+/* CONTENT FOOTER */
 .content-footer {
 	min-height: 90px;
 	margin: 15px -15px 0 -15px;
@@ -106,6 +106,7 @@ h6,
 
 /* PAGE FOOTER */
 .footer {
+  font-size: 90%;
   color: #500000;
   min-height: 200px;
   margin: 0;
@@ -114,17 +115,21 @@ h6,
 .content-footer a {
   color: #FFF;
 }
-.footer h1 {
-	margin: 0;
-	padding: 20px 0px;
+.footer ul {
+	margin: 0 0 15px 0;
+	padding: 0;
+	list-style-type: none;
+}
+.footer ul li {
+	display: inline;
+}
+.footer ul li:before {
+	content: "|";
+	margin: 0 4px 0 2px;
+}
+.footer ul li:first-child:before {
+	content: none;
 }
 .TAM-logo {
-	float:right;
-}
-
-/* RESPONSIVE */
-@media (max-width: 767px){
-	.TAM-logo {
-		float:none;
-	}
+	margin-bottom: 12px;
 }
