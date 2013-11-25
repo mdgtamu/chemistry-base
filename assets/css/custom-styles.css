@@ -71,6 +71,7 @@ body {
   box-shadow:         4px 4px 5px rgba(50, 50, 50, 0.3);
 }
 .page-header {
+  margin-top: 20px;	
   text-transform: uppercase;
 }
 h1,
