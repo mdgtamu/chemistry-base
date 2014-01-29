@@ -58,6 +58,37 @@ body {
 .navbar-default .navbar-nav > li > a {
   color: #FFF;
 }
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #DDD;
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #DDD;
+}
+.navbar-default .navbar-nav > .dropdown > a .caret {
+  border-top-color: #FFF;
+  border-bottom-color: #FFF;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret {
+  border-top-color: #CCC;
+  border-bottom-color: #CCC;
+}
+.navbar-default .navbar-nav > .open > a:hover .caret {
+  border-top-color: #333;
+  border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #CCC;
+  border-bottom-color: #CCC;
+}
+.navbar-nav .open .dropdown-menu {
+  background-color: #EEE;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color: #666;
+}
+
 
 /* MAIN CONTENT */
 .container-main {
