@@ -51,9 +51,12 @@
                 This template is based on version 3.0.0 of the Twitter Bootstrap framework. Please find the Twitter Bootstrap documentation at <a href="http://getbootstrap.com/css">getbootstrap.com/css</a>. Keep in mind that only some of the Bootstrap elements have been customized for this template. If adding more elements, further custumization may be needed.
               </div>
           </div>
-
-          
-          <h2>Body Text</h2>
+        </div> <!-- End col-lg-12 -->
+      </div> 
+      
+      <div class="row">
+      	<div class="col-lg-12">
+		  <h2>Body Text</h2>
 		  <p>This is body text text. Body fonts should be <a href="http://www.google.com/fonts/specimen/Open+Sans">Google Open Sans</a>, which is already included in this tempalte. Line height should be 1.5. Although there is no specific font size requirement, browser defaults are 16pt so we should keep body text no lower than 14pt (90% to 95% when converted to relative font size for your CSS). Font size might be larger or smaller on particular parts of the page based on their intent.</p>
           
  
