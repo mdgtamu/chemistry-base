@@ -48,7 +48,7 @@
           <div class="panel panel-default">
             <div class="panel-heading">Template Documentation</div>
               <div class="panel-body">
-                This template is based on version 3.0.0 of the Twitter Bootstrap framework. Please find the Twitter Bootstrap documentation at <a href="http://getbootstrap.com/css">getbootstrap.com/css</a>. Keep in mind that only some of the Bootstrap elements have been customized for this template. If adding more elements, further custumization may be needed.
+                This template is based on version 3.1.0 of the Twitter Bootstrap framework. Please find the Twitter Bootstrap documentation at <a href="http://getbootstrap.com/css">getbootstrap.com/css</a>. Keep in mind that only some of the Bootstrap elements have been customized for this template. If adding more elements, further custumization may be needed.
               </div>
           </div>
         </div> <!-- End col-lg-12 -->
